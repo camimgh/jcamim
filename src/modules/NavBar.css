@@ -1,0 +1,11 @@
+.NavBar-items {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #f3dada;
+    left: 0%;
+    right: 6.06%;
+    top: 0%;
+    bottom: 0%;
+}
+
