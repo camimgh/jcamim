@@ -7,14 +7,8 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +18,23 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+a:link {
+  transition: all 0.8s ease;
+  background-color: #f3dada;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  color: white;
+  background-color: #e1a3a3;
 }
+
+p {
+  color: #000411;
+  font-family: 'Libre Franklin', sans-serif;
+}
+/**
+Fonts:
+font-family: 'Roboto Mono', monospace;
+font-family: 'Libre Franklin', sans-serif;
+*/
