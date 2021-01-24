@@ -1,15 +1,17 @@
 .nav-item {
-    color: pink !important;
+    padding-left: 10px;
     font-size: x-large;
 }
+
 .navbar {
     background-color: #f3dada !important;
     font-family: 'Libre Franklin', sans-serif !important; 
     font-weight: lighter;
+    font-size:xx-large;
     color: black;
 }
 
-.navbar a:link {
+.navbar a {
     color: black;
 }
 
@@ -17,9 +19,6 @@
     text-decoration: none;
 }
 
-.navitem-selected {
-    font-weight: bold !important;
-}
 
 .NavBar-items {
     font-family: 'Libre Franklin', sans-serif !important;

@@ -11,18 +11,16 @@ import {
     NavLink
 } from "react-router-dom"
 class NavBar extends Component {
-    onSelect(eventKey) {
-        console.log(eventKey)
-    }
-
     render() {
         return (
             <div className="Navbar-items">
                 <Router>
-            <Navbar onSelect={this.onSelect} bsPrefix="navbar" variant="light" sticky="top">
+            <Navbar bsPrefix="navbar" collapseOnSelect expand="lg" variant="light" sticky="top">
                 <img alt="" src={logo} width="80" height="80" className="d-inline-block align-top"/>
                 {' '}
-                <Navbar.Brand href="/home">cami m.</Navbar.Brand>
+                <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/home">cami m.</Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
                     <Nav.Item>
                         <Nav.Link><NavLink exact to="/" activeStyle={{
@@ -50,6 +48,7 @@ class NavBar extends Component {
                         }}>writing</NavLink></Nav.Link>
                     </Nav.Item>
                 </Nav>
+                </Navbar.Collapse>
             </Navbar>
             </Router>
             </div>
