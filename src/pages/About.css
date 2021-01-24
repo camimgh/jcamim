@@ -4,7 +4,6 @@
     justify-content: center;
     padding-top: 5vmax;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .logo {
@@ -12,14 +11,27 @@
     width: 500px;
 }
 
+@media screen and ( max-width: 500px ) {
+    .logo { height: 250px;
+            width: 250px;}
+}
+
 .header-text {
     font-family: 'Roboto Mono', monospace;
     line-height: 96.19%;
     max-width: 900px;
     min-width: 200px;
+    font-size: 48px;
 }
 
+@media screen and ( max-width: 1000px ) {
+    .header-text { font-size: 40px; }
+    .intro-box { flex-wrap: wrap;}
+}
 
+@media screen and (max-width: 500px ) {
+    .header-text { font-size: 30px; }
+}
 .vl {
     display: flex;
     justify-content: center;
