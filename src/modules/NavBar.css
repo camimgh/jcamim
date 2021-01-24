@@ -1,9 +1,27 @@
-.NavBar-box {
-    font-family: 'Libre Franklin', sans-serif;
-    background: #f3dada;
+.nav-item {
+    color: pink !important;
+    font-size: x-large;
+}
+.navbar {
+    background-color: #f3dada !important;
+    font-family: 'Libre Franklin', sans-serif !important; 
+    color: black;
 }
 
-.NavBar-item {
+.navbar a:link {
     color: black;
-    font-size: medium;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.navitem-selected {
+    font-weight: bold !important;
+}
+
+.NavBar-items {
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-size: x-large !important;
+    color: pink !important;
 }
