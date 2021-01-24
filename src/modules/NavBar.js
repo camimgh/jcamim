@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from '../logo.png'
+import logo from '../logo-cropped.png'
 import './NavBar.css'
 import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from "react-bootstrap";
@@ -16,7 +16,7 @@ class NavBar extends Component {
         return (
             <div className="Navbar-items">
             <Navbar bsPrefix="navbar" collapseOnSelect expand="lg" variant="light" sticky="top">
-                <img alt="" src={logo} width="80" height="80" className="d-inline-block align-top"/>
+                <img alt="" href="/" src={logo} width="80" height="80" className="d-inline-block align-top"/>
                 {' '}
                 <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/">cami m.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

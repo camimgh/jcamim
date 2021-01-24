@@ -1,0 +1,26 @@
+.intro-box {
+    display: flex;
+    justify-content: center;
+    padding-left: 15vmax;
+    padding-right: 15vmax;
+    padding-top: 5vmax;
+}
+
+.logo {
+    height: 500px;
+    width: 500px;
+}
+.header-text {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 48px;
+    line-height: 96.19%;
+}
+
+.vl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #000411;
+    margin-left: 2em;
+    padding-left: 2em;
+}
