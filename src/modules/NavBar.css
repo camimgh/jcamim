@@ -5,6 +5,7 @@
 .navbar {
     background-color: #f3dada !important;
     font-family: 'Libre Franklin', sans-serif !important; 
+    font-weight: lighter;
     color: black;
 }
 

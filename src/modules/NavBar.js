@@ -7,7 +7,8 @@ import ReactDOM from "react-dom";
 import {
     BrowserRouter as Router,
     Switch,
-    useLocation
+    useLocation,
+    NavLink
 } from "react-router-dom"
 class NavBar extends Component {
     onSelect(eventKey) {
@@ -17,28 +18,40 @@ class NavBar extends Component {
     render() {
         return (
             <div className="Navbar-items">
+                <Router>
             <Navbar onSelect={this.onSelect} bsPrefix="navbar" variant="light" sticky="top">
                 <img alt="" src={logo} width="80" height="80" className="d-inline-block align-top"/>
                 {' '}
                 <Navbar.Brand href="/home">cami m.</Navbar.Brand>
-                <Nav>
+                <Nav className="ml-auto">
                     <Nav.Item>
-                        <Nav.Link eventKey="about" bsPrefix="navbar">about</Nav.Link>
+                        <Nav.Link><NavLink exact to="/" activeStyle={{
+                            fontWeight: 500,
+                        }}>about</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="projects" bsPrefix="navbar">projects</Nav.Link>
+                        <Nav.Link><NavLink to="/projects" activeStyle={{
+                            fontWeight: 500,
+                        }}>projects</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="experience" bsPrefix="navbar">experience</Nav.Link>
+                        <Nav.Link><NavLink to="/experience" activeStyle={{
+                            fontWeight: 500,
+                        }}>experience</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link eventKey="timeline" bsPrefix="navbar" href="#timeline">timeline</Nav.Link>
+                        <Nav.Link><NavLink to="/timeline" activeStyle={{
+                            fontWeight: 500,
+                        }}>timeline</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item> 
-                        <Nav.Link eventKey="writing" bsPrefix="navbar" className="navitem-selected" href="#writing">writing</Nav.Link>
+                        <Nav.Link><NavLink to="/writing" activeStyle={{
+                            fontWeight: 500,
+                        }}>writing</NavLink></Nav.Link>
                     </Nav.Item>
                 </Nav>
             </Navbar>
+            </Router>
             </div>
         )
     }
