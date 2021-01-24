@@ -1,9 +1,9 @@
 .intro-box {
     display: flex;
     justify-content: center;
-    padding-left: 15vmax;
-    padding-right: 15vmax;
     padding-top: 5vmax;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -14,6 +14,8 @@
     font-family: 'Roboto Mono', monospace;
     font-size: 48px;
     line-height: 96.19%;
+    max-width: 800px;
+    min-width: 200px;
 }
 
 .vl {
