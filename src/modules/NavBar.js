@@ -8,17 +8,17 @@ import {
     BrowserRouter as Router,
     Switch,
     useLocation,
+    Link,
     NavLink
 } from "react-router-dom"
 class NavBar extends Component {
     render() {
         return (
             <div className="Navbar-items">
-                <Router>
             <Navbar bsPrefix="navbar" collapseOnSelect expand="lg" variant="light" sticky="top">
                 <img alt="" src={logo} width="80" height="80" className="d-inline-block align-top"/>
                 {' '}
-                <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/home">cami m.</Navbar.Brand>
+                <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/">cami m.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
@@ -50,7 +50,6 @@ class NavBar extends Component {
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>
-            </Router>
             </div>
         )
     }

@@ -1,15 +1,20 @@
-import logo from './logo.png';
 import './App.css';
 import NavBar from "./modules/NavBar.js"
 import React, { Component } from "react";
 import { render } from '@testing-library/react';
-import About from "./pages/About.js" 
+import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
+
+import About from "./pages/About"
+import Projects from "./pages/Projects"
+import Experience from './pages/Experience';
+import Timeline from "./pages/Timeline";
+import Writing from "./pages/Writing";
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -21,23 +26,16 @@ class App extends Component {
   render() {
     return(
       <div>
-        <NavBar></NavBar>
-            <Router>
-      <div>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/">
-            <About />
-          </Route>
-          <Route path="/users">
-          </Route>
-          <Route path="/">
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-        <img src={logo} alt="logo"/>
+        <Router>
+          <NavBar />
+          <Switch>
+            <Route component={About} exact path="/" />
+            <Route component={Experience} path="/experience" /> 
+            <Route component={Projects} path="/projects" />
+            <Route component={Timeline} path="/timeline" />
+            <Route component={Writing} path="/writing" />
+          </Switch>
+        </Router>
       </div>
     )
   }
