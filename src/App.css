@@ -17,13 +17,13 @@
   color: white;
 }
 
-a:link {
+.App-link a:link {
   transition: all 0.8s ease;
   background-color: #f3dada;
   color: white;
 }
 
-a:hover {
+.App-link a:hover {
   color: white;
   background-color: #e1a3a3;
 }
