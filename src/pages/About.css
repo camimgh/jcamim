@@ -26,12 +26,21 @@
 }
 
 @media screen and ( max-width: 1000px ) {
-    .header-text { font-size: 40px; }
+    .header-text { font-size: 40px; max-width: 700px;}
+    .vl { margin: 2rem;}
     .intro-box { flex-wrap: wrap;}
+    .about-content { margin-top: 5em;}
+    .about-me { top: 500px; }
+    .arrow { visibility: hidden;}
 }
 
 @media screen and (max-width: 500px ) {
-    .header-text { font-size: 30px; }
+    .header-text { font-size: 30px; max-width: 500px; }
+}
+
+@media screen and (max-width: 375px) {
+    .logo { width: 175px; height: 175px;}
+    .header-text { font-size: 25px; max-width: 300px }
 }
 .vl {
     display: flex;
