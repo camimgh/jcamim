@@ -4,6 +4,7 @@
     justify-content: center;
     padding-top: 5vmax;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 .logo {
@@ -39,4 +40,25 @@
     border-left: 1px solid #000411;
     margin-left: 2em;
     padding-left: 2em;
+}
+
+.about-me {
+    position: absolute;
+    width: 451px;
+    height: 574px;
+    left: 171px;
+    top: 1353px;
+
+
+}
+
+.arrow {
+    position: absolute;
+    left: 50%;
+    font-size: 30px;
+    width: 2em;
+}
+
+html {
+    scroll-behavior: smooth;
 }
