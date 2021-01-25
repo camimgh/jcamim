@@ -45,10 +45,9 @@
 .about-me {
     position: absolute;
     width: 451px;
-    height: 574px;
-    left: 171px;
-    top: 1353px;
-
+    height: 800px;
+    left: 200px;
+    top: 900px;
 
 }
 
@@ -59,6 +58,22 @@
     width: 2em;
 }
 
+#about {
+    font-size: 48px;
+    font-family: 'Libre Franklin', sans-serif;
+    line-height: 96.19%;
+}
+
+#about-text {
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1rem;
+    font-size: 22px;
+    line-height: 96.19%;
+}
+
+.about-content {
+    padding-top: 5rem;
+}
 html {
     scroll-behavior: smooth;
 }
