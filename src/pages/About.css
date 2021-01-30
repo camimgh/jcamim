@@ -1,3 +1,6 @@
+
+
+
 .home {
     display: flex;
     flex-direction: column;
@@ -8,18 +11,20 @@
     justify-content: center;
     padding-top: 20vh;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .logo {
     height: 500px;
     width: 500px;
 }
-
+/**
 @media screen and ( max-width: 500px ) {
     .logo { height: 250px;
             width: 250px;}
 }
-
+*/
 .header-text {
     font-family: 'Roboto Mono', monospace;
     line-height: 96.19%;
@@ -28,11 +33,12 @@
     font-size: 48px;
 }
 
+/**
 @media screen and ( max-width: 1000px ) {
     .header-text { font-size: 40px; max-width: 700px;}
     .vl { margin: 2rem;}
     .intro-box { flex-wrap: wrap;}
-    .about-me { margin-top: 40vh; }
+    .about-me { flex-wrap: wrap;  }
     .arrow { visibility: hidden;}
 }
 
@@ -42,8 +48,11 @@
 
 @media screen and (max-width: 375px) {
     .logo { width: 175px; height: 175px;}
-    .header-text { font-size: 25px; max-width: 300px }
+    .header-text { font-size: 25px; max-width: 100% }
 }
+
+ */
+
 .links > a{
     color: grey;
     display: inline-block;
@@ -64,7 +73,12 @@
 
 .about-me {
     display: flex;
-    margin-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .arrow {
@@ -74,8 +88,11 @@
     width: 100%;
     text-align: center;
 }
-
+.about-content {
+    margin-right: 5rem;
+}
 #about {
+    max-width: 500px;
     font-size: 48px;
     font-family: 'Libre Franklin', sans-serif;
     line-height: 96.19%;
@@ -86,10 +103,40 @@
     padding-top: 1rem;
     font-size: 22px;
     line-height: 96.19%;
+    max-width: 500px;
 }
 
-.about-content {
+#about-photo {
+    width: 720px;
+    height: 540px;
 }
 html {
     scroll-behavior: smooth;
+}
+/** media queries 576, 768, 992, 1200*/
+
+@media screen and ( max-width: 1300px ) {
+    #about-photo {
+        width: 540px;
+        height: 405px;
+    }
+    .arrow {
+        visibility: hidden;
+    }
+}
+
+@media screen and ( max-width: 1500px ) {
+    .logo {
+        height: 300px;
+        width: 300px;
+    }
+    .header-text {
+        font-size: 40px;
+    }
+    .intro-box {
+        padding-top: 30vh;
+    }
+    .about-me {
+        margin-bottom: 10vh;
+    }
 }
