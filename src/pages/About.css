@@ -1,10 +1,13 @@
-
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
 .intro-box {
     display: flex;
     justify-content: center;
-    padding-top: 5vmax;
+    padding-top: 20vh;
     align-items: center;
-    margin-bottom: 3em;
 }
 
 .logo {
@@ -29,8 +32,7 @@
     .header-text { font-size: 40px; max-width: 700px;}
     .vl { margin: 2rem;}
     .intro-box { flex-wrap: wrap;}
-    .about-content { margin-top: 5em;}
-    .about-me { top: 500px; }
+    .about-me { margin-top: 40vh; }
     .arrow { visibility: hidden;}
 }
 
@@ -42,29 +44,35 @@
     .logo { width: 175px; height: 175px;}
     .header-text { font-size: 25px; max-width: 300px }
 }
+.links > a{
+    color: grey;
+    display: inline-block;
+    padding-right: 2rem;
+}
+
+.links > a:hover {
+    color: #e1a3a3;
+}
+
 .vl {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     border-left: 1px solid #000411;
     margin-left: 2em;
     padding-left: 2em;
 }
 
 .about-me {
-    position: absolute;
-    width: 451px;
-    height: 800px;
-    left: 200px;
-    top: 900px;
-
+    display: flex;
+    margin-top: 10vh;
 }
 
 .arrow {
-    position: absolute;
-    left: 50%;
+    margin-top: 20vh;
+    display: block;
     font-size: 30px;
-    width: 2em;
+    width: 100%;
+    text-align: center;
 }
 
 #about {
@@ -81,7 +89,6 @@
 }
 
 .about-content {
-    padding-top: 5rem;
 }
 html {
     scroll-behavior: smooth;

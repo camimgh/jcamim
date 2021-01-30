@@ -20,8 +20,16 @@
 }
 
 
-.NavBar-items {
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /**
     font-family: 'Libre Franklin', sans-serif !important;
     font-size: x-large !important;
     color: pink !important;
+    position: fixed !important;
+    top: 0 !important;
+
+     */
 }

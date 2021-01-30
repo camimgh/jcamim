@@ -14,8 +14,8 @@ import {
 class NavBar extends Component {
     render() {
         return (
-            <div className="Navbar-items">
-            <Navbar collapseOnSelect expand="lg" variant="light" sticky="top">
+            <div className="sticky">
+            <Navbar collapseOnSelect expand="lg" variant="light">
                 <img alt="" href="/" src={logo} width="80" height="80" className="d-inline-block align-top"/>
                 {' '}
                 <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/">cami m.</Navbar.Brand>
