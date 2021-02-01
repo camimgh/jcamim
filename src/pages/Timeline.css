@@ -16,3 +16,8 @@
     font-size: 28px;
     font-weight: bold;
 }
+
+#intro-text > p {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+}
