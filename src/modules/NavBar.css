@@ -3,6 +3,10 @@
     font-size: x-large;
 }
 
+.nav-link a:hover {
+    text-decoration: none;
+}
+
 .navbar {
     background-color: #f3dada !important;
     font-family: 'Libre Franklin', sans-serif !important; 
@@ -17,8 +21,8 @@
 
 .navbar a:hover {
     text-decoration: none;
+    color: black;
 }
-
 
 .sticky {
     position: fixed;
