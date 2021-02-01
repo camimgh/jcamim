@@ -1,3 +1,5 @@
+#timeline {
+}
 #intro-text {
     padding-top: 15vh;
     display: flex;
@@ -6,8 +8,8 @@
     align-items: center;
     justify-items: center;
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 2rem;
+    padding-right:2rem;
 }
 
 #intro-text > h1 {
@@ -20,4 +22,15 @@
 #intro-text > p {
     font-family: "Libre Franklin", sans-serif;
     font-size: 16px;
+}
+
+#timeline-line > h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#timeline-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
 }

@@ -15,10 +15,26 @@ class Timeline extends Component {
                     and <b>writing </b>. Along the way, I've developed skills in <b>project management </b> and <b>social media</b>.
                     I also just love being very present on the Internet and being a helping hand where I can.</p>
                 </div>
-                <div className="vl">
+                <div className="vl" id="timeline-line">
                     <h1>Work</h1>
+                    <ul>
+                        <li>blogging for mitadmissions</li>
+                        <li>answering questions from prospective mit students as a student panelist</li>
+                        <li>running @mitadmissions on instagram and hosting weekly hour-long q&a sessions</li>
+                        <li>organizing the MIT Career Advising & Professional Development Office's Infinite Careers series
+                        as a program assistant</li>
+                    </ul>
                     <h1>Classes</h1>
+                    <ul>
+                        <li>6.006: Introduction to Algorithms</li>
+                        <li>CMS.621: Fans & Fan Culture</li>
+                    </ul>
                     <h1>Extracurriculars</h1>
+                    <ul>
+                        <li>mentoring for MIT THINK</li>
+                        <li>advising MIT freshmen as an Associate Advisor</li>
+                        <li>organizing and running events as Vice President for the MIT Class of 2023</li>
+                    </ul>
                 </div>
             </div>
         )
