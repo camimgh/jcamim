@@ -144,3 +144,13 @@ html {
         padding-top: 1rem;
     }
 }
+
+@media screen and ( max-width: 576px ) {
+    #about-photo {
+        width: 360px;
+        height: 270px;
+    }
+    .header-text {
+        font-size: 28px;
+    }
+}
