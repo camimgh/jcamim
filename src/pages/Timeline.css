@@ -1,0 +1,18 @@
+#intro-text {
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#intro-text > h1 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 28px;
+    font-weight: bold;
+}
