@@ -18,8 +18,14 @@
 #experience-cards {
     padding-top: 3vh;
 }
+
 #experience-cards .card {
     width: 300px;
     border-radius: 14px;
     font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 3vh;
+}
+
+#experience-cards > ul {
+    margin-left: 1vh;
 }
