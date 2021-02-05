@@ -73,7 +73,7 @@
     line-height: 96.19%;
 }
 
-#about-text {
+.about-text {
     font-family: 'Roboto Mono', monospace;
     padding-top: 1rem;
     font-size: 22px;

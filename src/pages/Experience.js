@@ -15,7 +15,7 @@ class Experience extends Component {
     render() {
         return(
             <div id="experience">
-                <div id="header-text">
+                <div id="header">
                   <h1>Experience</h1>
                 </div>
 

@@ -34,15 +34,14 @@ class About extends Component {
                 <div className="about-me">
                     <div className="about-content">
                         <h1 id="about">About Me</h1>
-                        <p id="about-text">
+                        <p className="about-text">
                         My name is Cami and I’m a sophomore at MIT studying computer science and media studies with a minor in Spanish. 
                         My interests really lie all over the place, from music to management and finance to social media and creative writing. 
                         I’m a big believer in the importance of the intersection of humanities and STEM and I hope that my future job allows me to explore this junction. 
                         <br /><br />
                         I can normally be found watching kdramas, doom-scrolling through Twitter, watching Twitch streams, or attempting to beat Hades on my Switch.
                         <br/><br/>
-                        Here’s what I’ve been up to and my resume. You can contact me here.
-                        </p>
+                        Here’s what I’ve been up to and my resume.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
                     </div>
                     <img id="about-photo" src={aboutphoto}/>
                 </div>
