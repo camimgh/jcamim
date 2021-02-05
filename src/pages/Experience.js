@@ -73,13 +73,34 @@ class Experience extends Component {
                             August 2019-current</Card.Subtitle>
                             <Card.Text>
                                 Bloggers write about student life and communicate to their readers about what it's like to be
-                                an MIT student through their own experience.
+                                an MIT student through their own experience. <a href="https://mitadmissions.org/blogs/author/camim">Read my blogs.</a>
                                 <ul>
+                                    <li>Was 1 of 4 bloggers selected from 96 applicants.</li>
                                     <li>Write weekly blogposts about MIT culture</li>
                                     <li>Organized and moderated CP* 2020, MIT's digital Admitted Students Weekend, for over 1400 admits.</li>
                                     <li>Grew @mitadmissions Instagram account from 26k followers to 33k+ followers in 4 months. Host weekly
                                         live-streams for 60+ people on Instagram Live.
                                     </li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>New Technologist Intern</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Microsoft 
+                            <br/>
+                            June 2020-August 2020</Card.Subtitle>
+                            <Card.Text>
+                                The TNT program is a 7 week academy where interns learn the software development cycle. Interns
+                                work in groups of 5 to develop the front-end of an app of their esign using Typescript and React to
+                                present at the end of the 7 weeks.
+                                <ul>
+                                    <li>Was 1 of 100 TNTs selected from 1700 applicants.</li>
+                                    <li>Conducted user research surveys of 100+ people.</li>
+                                    <li>Designed and wrote specifications for iOS app "Dive"</li>
+                                    <li>Organized, wrote, and edited final presentation for "Dive", which was shown to various Microsoft executives.</li>
                                 </ul>
                             </Card.Text>
                         </Card.Body>

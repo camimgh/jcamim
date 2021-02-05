@@ -29,3 +29,15 @@
 #experience-cards > ul {
     margin-left: 1vh;
 }
+
+@media screen and ( min-width: 700px ) {
+    #experience-cards .card {
+        width: 500px;
+    }
+}
+
+@media screen and ( min-width: 1000px ) {
+    #experience-cards .card {
+        width: 800px;
+    }
+}
