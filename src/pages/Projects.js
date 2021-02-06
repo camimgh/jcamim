@@ -3,7 +3,9 @@ import './Projects.css';
 import divvy from '../images/divvy.gif';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-
+import {MuuriComponent} from 'muuri-react';
+import { useState } from "react";
+import { useCallback } from "react";
 class Projects extends Component {
     render() {
         return(
@@ -33,5 +35,4 @@ class Projects extends Component {
         )
     }
 }
-
 export default Projects;
