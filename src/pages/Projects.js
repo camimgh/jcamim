@@ -3,9 +3,7 @@ import './Projects.css';
 import divvy from '../images/divvy.gif';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import {MuuriComponent} from 'muuri-react';
-import { useState } from "react";
-import { useCallback } from "react";
+import IsoTopeGrid from 'react-isotope';
 class Projects extends Component {
     render() {
         return(
@@ -13,6 +11,7 @@ class Projects extends Component {
                 <div id="header">
                     <h1>Projects</h1>
                 </div>
+                
             <div id="project-cards">
                 <CardDeck>
                     <Card>

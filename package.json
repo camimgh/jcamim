@@ -24,6 +24,7 @@
     "react-bulma-components": "^3.4.0",
     "react-dom": "^17.0.1",
     "react-fontawesome": "^1.7.1",
+    "react-isotope": "^1.0.7",
     "react-markdown": "^5.0.3",
     "react-responsive-picture": "^3.2.2",
     "react-router": "^5.2.0",
