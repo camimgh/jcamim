@@ -1,3 +1,10 @@
 #dive {
     padding-top: 15vh;
+    font-family: "Libre Franklin", sans-serif;
+    padding-left: 2vh;
+    padding-right: 2vh;
+}
+
+#dive > h1 {
+    text-align: center;
 }

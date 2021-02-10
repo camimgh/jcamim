@@ -31,7 +31,8 @@ class Dive extends Component {
         const { markdown } = this.state;
         return (
             <div id="dive">
-            <ReactMarkdown source={markdown} />
+                <h1>Dive</h1>
+                <ReactMarkdown plugins={[gfm]} source={markdown} />
             </div>
         )
     }
