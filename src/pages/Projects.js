@@ -4,6 +4,13 @@ import divvy from '../images/divvy.gif';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import IsoTopeGrid from 'react-isotope';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Dive from './pages_projects/Dive'
+
 class Projects extends Component {
     render() {
         return(
@@ -17,7 +24,7 @@ class Projects extends Component {
                     <Card>
                         <Card.Img variant="top" src={divvy}/>
                         <Card.Body>
-                            <Card.Title><Card.Link>Dive</Card.Link></Card.Title>
+                            <Card.Title><Card.Link><a href="/dive">Dive</a></Card.Link></Card.Title>
                             <Card.Text>test</Card.Text>
                         </Card.Body>
                     </Card>
