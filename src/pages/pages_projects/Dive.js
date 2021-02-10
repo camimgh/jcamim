@@ -1,43 +1,39 @@
 import React, { Component } from "react";
-import Markdown from 'react-markdown';
+import ReactMarkdown from 'react-markdown';
 import {render} from 'react-dom';
 import ReactDOM from 'react-dom';
+import Divemd from "./Dive.md";
 import './Dive.css'
 import gfm from 'remark-gfm';
 
+/*
 export default function Dive() {
-    const markdown = `
-    Hello this is a test!\n
-    # Hi
-    `;
-
     return (
         <div id="dive">
-            <Markdown source={markdown} />
+            <ReactMarkdown>
+                # Hello, *world*!
+            </ReactMarkdown>
         </div>
     );
 }
-/*
+*/
+
 class Dive extends Component {
     constructor(props) {
         super(props);
-        this.ContentMarkdown = `
-        # test
-        [ a ] [ b ]
-        `;
+        this.state = { markdown: '' };
+    }
+    componentWillMount() {
+        fetch(Divemd).then(res => res.text()).then(text => this.setState({ markdown: text})); 
     }
 
     render() {
+        const { markdown } = this.state;
         return (
             <div id="dive">
-                <Markdown 
-                    escapeHtml={true}
-                    source={this.ContentMarkdown}
-                    plugins={gfm}
-                />
+            <ReactMarkdown source={markdown} />
             </div>
         )
     }
 }
 export default Dive;
-*/
