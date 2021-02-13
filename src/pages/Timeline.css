@@ -1,8 +1,7 @@
 #timeline {
-}
-#intro-text {
     padding-top: 15vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
@@ -10,6 +9,10 @@
     width: 100%;
     padding-left: 2rem;
     padding-right:2rem;
+}
+
+#timeline .card ul {
+    padding-left: 0.5rem; 
 }
 
 #intro-text > h1 {
@@ -33,4 +36,30 @@
 #timeline-line {
     padding-left: 2rem;
     padding-right: 2rem;
+}
+
+#timeline-cards > h1 {
+    font-family: 'Roboto Monospace', monospace;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+#timeline-cards .card {
+    width: 300px;
+    border-radius: 14px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: 3vh;
+}
+
+@media screen and ( min-width: 700px ) {
+    #experience-cards .card {
+        width: 500px;
+    }
+}
+
+@media screen and ( min-width: 1000px ) {
+    #experience-cards .card {
+        width: 800px;
+    }
 }

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 import "./Timeline.css"
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck'
 
 class Timeline extends Component {
     render() {
         return(
             <div id="timeline">
                 <div id="intro-text">
-                    <h1>What I've Been Up To</h1>
+                    <h1 id="header">What I've Been Up To</h1>
                     <p>Having so many interests, it's really hard to just sit
                     still and dedicate myself to one thing and one thing alone, so I
                     end up doing a lot of different things on campus and off campus at a
@@ -15,6 +17,27 @@ class Timeline extends Component {
                     and <b>writing </b>. Along the way, I've developed skills in <b>project management </b> and <b>social media</b>.
                     I also just love being very present on the Internet and being a helping hand where I can.</p>
                 </div>
+                <div id="timeline-cards">
+                <h1>Currently</h1>
+                <Card bg="light">
+                    <Card.Header>Work</Card.Header>
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>blogging for MIT Admissions</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default Timeline;
+/*
+
                 <div className="vl" id="timeline-line">
                     <h1>Work</h1>
                     <ul>
@@ -36,9 +59,4 @@ class Timeline extends Component {
                         <li>organizing and running events as Vice President for the MIT Class of 2023</li>
                     </ul>
                 </div>
-            </div>
-        )
-    }
-}
-
-export default Timeline;
+                */
