@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Timeline.css"
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck'
+import CardDeck from 'react-bootstrap/CardDeck';
+import Button from 'react-bootstrap/Button';
 
 class Timeline extends Component {
     render() {
@@ -18,13 +19,40 @@ class Timeline extends Component {
                     I also just love being very present on the Internet and being a helping hand where I can.</p>
                 </div>
                 <div id="timeline-cards">
-                <h1>Currently</h1>
+                <h1>Spring 2021</h1>
                 <Card bg="light">
-                    <Card.Header>Work</Card.Header>
+                    <Card.Header className='text-center' as="h5">Work</Card.Header>
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Lab Assistant for 6.08 Intro to EECS via Interconnected Embedded Systems</li>
+                                <li>Blogger for MIT Admissions</li>
+                                <li>Panelist for MIT Admissions</li>
+                                <li>Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+
+                <Card bg="light">
+                    <Card.Header className='text-center' as="h5">Classes</Card.Header>
+                    <Card.Body>
+                        <Card.Text>
+                            hi
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+
+                <Card bg="light">
+                    <Card.Header className='text-center' as="h5">Extracurriculars</Card.Header>
                     <Card.Body>
                         <Card.Text>
                             <ul>
                                 <li>blogging for MIT Admissions</li>
+                                <li>answering questions from prospective mit students as a student panelist</li>
+                                <li>running @mitadmissions on instagram and hosting weekly hour-long q&a sessions</li>
+                                <li>organizing the MIT Career Advising & Professional Development Office's Infinite Careers series
+                                as a program assistant</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>

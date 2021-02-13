@@ -15,6 +15,10 @@
     padding-left: 0.5rem; 
 }
 
+#timeline .card li {
+    padding-top: 0.5rem;
+}
+
 #intro-text > h1 {
     text-align: center;
     font-family: "Roboto Mono", monospace;
