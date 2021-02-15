@@ -3,7 +3,7 @@ import "./Timeline.css"
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Button from 'react-bootstrap/Button';
-
+import Accordion from 'react-bootstrap/Accordion'
 class Timeline extends Component {
     render() {
         return(
@@ -20,8 +20,11 @@ class Timeline extends Component {
                 </div>
                 <div id="timeline-cards">
                 <h1>Spring 2021</h1>
+                <Accordion>
                 <Card bg="light">
-                    <Card.Header className='text-center' as="h5">Work</Card.Header>
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Card.Text>
                             <ul>
@@ -32,19 +35,43 @@ class Timeline extends Component {
                             </ul>
                         </Card.Text>
                     </Card.Body>
+                    </Accordion.Collapse>
                 </Card>
 
                 <Card bg="light">
-                    <Card.Header className='text-center' as="h5">Classes</Card.Header>
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="3">Programs
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="3">
                     <Card.Body>
                         <Card.Text>
-                            hi
+                            <ul>
+                                <li>Blackstone's Future Women Innovators</li>
+                            </ul>
                         </Card.Text>
                     </Card.Body>
+                    </Accordion.Collapse>
                 </Card>
 
                 <Card bg="light">
-                    <Card.Header className='text-center' as="h5">Extracurriculars</Card.Header>
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="1">Classes
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>6.006: Introduction to Algorithms</li>
+                                <li>7.014: Introductory Biology</li>
+                                <li>9.00: Introduction to Psychological Sciences</li>
+                                <li>CMS.621: Fans & Fan Culture</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="2">Extracurriculars</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
                     <Card.Body>
                         <Card.Text>
                             <ul>
@@ -56,7 +83,67 @@ class Timeline extends Component {
                             </ul>
                         </Card.Text>
                     </Card.Body>
+                    </Accordion.Collapse>
                 </Card>
+                </Accordion>
+
+
+                <h1>IAP 2021</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Undergraduate Researcher for MIT Teaching Systems Lab</li>
+                                <li>Blogger for MIT Admissions</li>
+                                <li>Panelist for MIT Admissions</li>
+                                <li>Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="1">Programs
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            Over IAP, instead of taking classes, I participated in a series of fintech programs to learn
+                            more about the technological side of several different investment management groups and hedge funds.
+                            <ul>
+                                <li>Jane Street Insight</li>
+                                <li>D.E. Shaw Group Discovery Fellowship</li>
+                                <li>Goldman Sachs Engineering Possibilities Summit</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="2">Extracurriculars</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>blogging for MIT Admissions</li>
+                                <li>answering questions from prospective mit students as a student panelist</li>
+                                <li>running @mitadmissions on instagram and hosting weekly hour-long q&a sessions</li>
+                                <li>organizing the MIT Career Advising & Professional Development Office's Infinite Careers series
+                                as a program assistant</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
                 </div>
             </div>
         )

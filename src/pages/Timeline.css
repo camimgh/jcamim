@@ -1,5 +1,5 @@
 #timeline {
-    padding-top: 15vh;
+    padding-top: 16vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,13 +47,23 @@
     font-weight: bold;
     font-size: 32px;
     text-align: center;
+    margin-top: 3vh;
 }
 
 #timeline-cards .card {
     width: 300px;
-    border-radius: 14px;
     font-family: 'Libre Franklin', sans-serif;
-    margin-bottom: 3vh;
+}
+
+#timeline-cards {
+    padding-bottom: 4vh;
+}
+#timeline-cards .card-header {
+    font-size: 20px;
+}
+
+#timeline-cards .card-header:hover {
+    cursor: pointer;
 }
 
 @media screen and ( min-width: 700px ) {
