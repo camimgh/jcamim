@@ -55,6 +55,11 @@
     font-family: 'Libre Franklin', sans-serif;
 }
 
+#timeline-cards .grayout {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
 #timeline-cards {
     padding-bottom: 4vh;
 }

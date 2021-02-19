@@ -18,6 +18,8 @@ class Timeline extends Component {
                     and <b>writing </b>. Along the way, I've developed skills in <b>project management </b> and <b>social media</b>.
                     I also just love being very present on the Internet and being a helping hand where I can.</p>
                 </div>
+
+                <p>Greyed out bullets means that these are not new positions.</p>
                 <div id="timeline-cards">
                 <h1>Spring 2021</h1>
                 <Accordion>
@@ -29,7 +31,7 @@ class Timeline extends Component {
                         <Card.Text>
                             <ul>
                                 <li>Lab Assistant for 6.08 Intro to EECS via Interconnected Embedded Systems</li>
-                                <li>Blogger for MIT Admissions</li>
+                                <li className="grayout">Blogger for MIT Admissions</li>
                                 <li>Panelist for MIT Admissions</li>
                                 <li>Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
                             </ul>
@@ -75,11 +77,9 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
-                                <li>blogging for MIT Admissions</li>
-                                <li>answering questions from prospective mit students as a student panelist</li>
-                                <li>running @mitadmissions on instagram and hosting weekly hour-long q&a sessions</li>
-                                <li>organizing the MIT Career Advising & Professional Development Office's Infinite Careers series
-                                as a program assistant</li>
+                                <li>2023 Student Council Vice President</li>
+                                <li>MIT THINK</li>
+                                <li>MIT Associate Advising</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
@@ -132,16 +132,98 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
-                                <li>blogging for MIT Admissions</li>
-                                <li>answering questions from prospective mit students as a student panelist</li>
-                                <li>running @mitadmissions on instagram and hosting weekly hour-long q&a sessions</li>
-                                <li>organizing the MIT Career Advising & Professional Development Office's Infinite Careers series
-                                as a program assistant</li>
+                                <li>2023 Class Council Vice President</li>
+                                <li>MIT THINK</li>
+                                <li>MIT Associate Advising</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
+                </Accordion>
+
+                <h1>Fall 2020</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <li>Blogger for MIT Admissions</li>
+                            <li>Panelist for MIT Admissions</li>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="1">Classes</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>6.009: Fundamentals of Programming</li>
+                                <li>21G.703: Spanish III</li>
+                                <li>8.02: Physics II: Electricity and Magnetism</li>
+                                <li>18.02: Multivariable Calculus</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="2">Extracurriculars</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>2023 Student Council Vice President</li>
+                                <li>MIT THINK</li>
+                                <li>MIT Associate Advising</li>
+                                <li>MIT CodeIt</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
+                <h1>Summer 2020</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            In Summer 2020, I interned for Microsoft within their New Technologists program. During this
+                            program, I studied the software develoment cycle, building the front-end of my app, Dive, using
+                            Typescript and React. 
+
+                            You can find more about this project here.
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Blogger for MIT Admissions</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
                 </Accordion>
 
                 </div>
