@@ -32,8 +32,8 @@ class Timeline extends Component {
                             <ul>
                                 <li>Lab Assistant for 6.08 Intro to EECS via Interconnected Embedded Systems</li>
                                 <li className="grayout">Blogger for MIT Admissions</li>
-                                <li>Panelist for MIT Admissions</li>
-                                <li>Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                                <li className="grayout">Panelist for MIT Admissions</li>
+                                <li className="grayout">Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
@@ -98,9 +98,9 @@ class Timeline extends Component {
                         <Card.Text>
                             <ul>
                                 <li>Undergraduate Researcher for MIT Teaching Systems Lab</li>
-                                <li>Blogger for MIT Admissions</li>
-                                <li>Panelist for MIT Admissions</li>
                                 <li>Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                                <li className="grayout">Blogger for MIT Admissions</li>
+                                <li className="grayout">Panelist for MIT Admissions</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
@@ -150,8 +150,8 @@ class Timeline extends Component {
                     <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Card.Text>
-                            <li>Blogger for MIT Admissions</li>
-                            <li>Panelist for MIT Admissions</li>
+                            <li className="grayout">Blogger for MIT Admissions</li>
+                            <li className="grayout">Panelist for MIT Admissions</li>
                         </Card.Text>
                     </Card.Body>
                     </Accordion.Collapse>
@@ -193,7 +193,7 @@ class Timeline extends Component {
                 <h1>Summer 2020</h1>
                 <Accordion>
                 <Card bg="light">
-                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Internship
                     </Accordion.Toggle>
                     <Accordion.Collapse eventKey="0">
                     <Card.Body>
@@ -209,6 +209,7 @@ class Timeline extends Component {
                 </Card>
                 </Accordion>
 
+                <h1>Spring 2020</h1>
                 <Accordion>
                 <Card bg="light">
                     <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
@@ -217,15 +218,89 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
+                                <li className="grayout">Web-Based Research Intern for Massachusetts Science & Engineering Fair</li>
+                                <li className="grayout">Blogger for MIT Admissions</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="1">Classes
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>6.042: Math for Computer Scientists</li>
+                                <li>CMS.100: Introduction to Media Studies</li>
+                                <li>6.08: Intro to EECS via Interconnected Embedded Systems</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="2">Extracurriculars
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>DanceTroupe</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
+                <h1>Fall 2019</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Web-Based Research Intern for Massachusetts Science & Engineering Fair</li>
                                 <li>Blogger for MIT Admissions</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
                     </Accordion.Collapse>
                 </Card>
-
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="1">Classes
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>18.01: Single-Variable Calculus</li>
+                                <li>3.091: Intro to Solid State Chemistry</li>
+                                <li>21M.011: Introduction to Western Music</li>
+                                <li>8.01: Physics 1 Mechanics</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="2">Extracurriculars
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>DanceTroupe</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
                 </Accordion>
-
                 </div>
             </div>
         )

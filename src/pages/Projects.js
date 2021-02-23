@@ -21,19 +21,26 @@ class Projects extends Component {
                 
             <div id="project-cards">
                 <CardDeck>
+                    <a href="/dive">
                     <Card>
+                        <Card.Header as="h5">Dive</Card.Header>
                         <Card.Img variant="top" src={divvy}/>
                         <Card.Body>
-                            <Card.Title><Card.Link><a href="/dive">Dive</a></Card.Link></Card.Title>
+                            <Card.Text>Dive is a web app built using <b>React</b> and <b>Typescript</b>, built for my Microsoft internship.</Card.Text>
+                        </Card.Body>
+                    </Card>
+                    </a>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>camimejia.com</Card.Title>
                             <Card.Text>test</Card.Text>
                         </Card.Body>
                     </Card>
 
+
                     <Card>
-                        <Card.Body>
-                            <Card.Title>hewwo</Card.Title>
-                            <Card.Text>test</Card.Text>
-                        </Card.Body>
+
                     </Card>
                 </CardDeck>
             </div>

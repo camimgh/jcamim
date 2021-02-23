@@ -22,3 +22,11 @@
     font-family: 'Libre Franklin', sans-serif;
     margin-bottom: 3vh;
 }
+
+#projects a {
+    color: black
+}
+
+#projects a:hover {
+    text-decoration: none;
+}

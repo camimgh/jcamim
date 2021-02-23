@@ -19,6 +19,10 @@
     padding-top: 0.5rem;
 }
 
+#intro-text {
+    max-width: 900px;
+}
+
 #intro-text > h1 {
     text-align: center;
     font-family: "Roboto Mono", monospace;
@@ -72,13 +76,13 @@
 }
 
 @media screen and ( min-width: 700px ) {
-    #experience-cards .card {
+    #timeline-cards .card {
         width: 500px;
     }
 }
 
 @media screen and ( min-width: 1000px ) {
-    #experience-cards .card {
+    #timeline-cards .card {
         width: 800px;
     }
 }

@@ -31,13 +31,13 @@ class Dive extends Component {
         const { markdown } = this.state;
         return (
             <div id="dive">
-                <h1>Dive</h1>
                 <Card body>
+                <h1>Dive</h1>
                 <p>
-                        Dive is a mobile app built with *Typescript* and *React* that connects people to others inside or outside of their culture to encourage diversity, personal connection, and friendship.
-                        My team of 5 worked on the front-end of Dive for Microsoft's [New Technologist program](https://newtechnologists.com).
+                        Dive is a mobile app built with <b>Typescript</b> and <b>React</b> that connects people to others inside or outside of their culture to encourage diversity, personal connection, and friendship.
+                        My team of 5 worked on the front-end of Dive for Microsoft's <a href="https://newtechnologists.com">New Technologist program</a>.
                 </p>
-                <p align="center"><iframe width="300" height="315" 
+                <p align="center"><iframe width="300" height="200" 
                     src="https://www.youtube.com/embed/gfzJSjN6rV8" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
                     <ReactMarkdown plugins={[gfm]} source={markdown} />
