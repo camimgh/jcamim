@@ -47,7 +47,7 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
-                                <li>Blackstone's Future Women Innovators</li>
+                                <li>Discover Citadel</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>

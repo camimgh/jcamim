@@ -16,8 +16,8 @@ class NavBar extends Component {
         return (
             <div className="sticky">
             <Navbar collapseOnSelect expand="lg" variant="light">
-                <img alt="" href="/" src={logo} width="80" height="80" className="d-inline-block align-top"/>
-                {' '}
+                <a href="/"><img alt="" href="/" src={logo} width="80" height="80" className="d-inline-block align-top"/>
+                {' '}</a>
                 <Navbar.Brand id="Navbar-brand" bsPrefix="navbar" href="/">cami m.</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">

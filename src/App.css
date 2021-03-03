@@ -28,10 +28,12 @@
   background-color: #e1a3a3;
 }
 
-p {
+#footer {
   color: #000411;
   font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
 }
+
 /**
 Fonts:
 font-family: 'Roboto Mono', monospace;
