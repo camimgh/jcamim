@@ -17,6 +17,7 @@ class Projects extends Component {
             <div id="projects">
                 <div id="header">
                     <h1>Projects</h1>
+                    <p>Hello! This page is still a work in progress.</p>
                 </div>
                 
             <div id="project-cards">
@@ -32,15 +33,18 @@ class Projects extends Component {
                     </a>
 
                     <Card>
+                        <Card.Header as="h5">camimejia.com</Card.Header>
                         <Card.Body>
-                            <Card.Title>camimejia.com</Card.Title>
-                            <Card.Text>test</Card.Text>
+                    <Card.Text>camimejia.com (the website that you're on!) is my personal website built using <b>React</b> and <b>Bootstrap</b>.</Card.Text>
                         </Card.Body>
                     </Card>
 
 
                     <Card>
-
+                        <Card.Header as="h5">aligned.space</Card.Header>
+                        <Card.Body>
+                            <Card.Text>aligned.space is a web app built using <b>React</b> and <b>Bootstrap</b>, built for PearlHacks 2021.</Card.Text>
+                        </Card.Body>
                     </Card>
                 </CardDeck>
             </div>
