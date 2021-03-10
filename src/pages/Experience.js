@@ -35,6 +35,21 @@ class Experience extends Component {
 
                     <Card>
                         <Card.Body>
+                            <Card.Title>Lab Assistant for 6.08: Intro to EECS via Interconnected Embedded Systems</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">MIT
+                            <br/>
+                            February 2021-May 2021</Card.Subtitle>
+                            <Card.Text>
+                                Lab assistants for this class are responsible for assisting current
+                                students with labs twice a week related to EECS and Internet of Things.
+                                Lab assistants answer questions and provide check-offs to ensure all students
+                                understand the class content.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
                             <Card.Title>Infinite Careers Program Assistant</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">MIT Career Advising & Professional Development Office
                             <br/>
