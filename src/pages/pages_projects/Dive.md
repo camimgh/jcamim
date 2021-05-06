@@ -103,4 +103,11 @@ We started off with paper prototypes, drawing out the app to figure out what stu
 - resources
 
 ## User Surveys
-We then created an 8 question user survey
+We then created an 8 question user survey to decide some things we were concerned about, like how long the algorithm should search for a connection before timing out or if profiles should default to anonymous. We also wanted to see if there was an actual audience for our app, so we asked people's willingness to connect with people inside and outside of their culture from a scale of 1-10.
+
+
+## Mock Ups
+We then made mock-ups of the app in Framer.
+
+## Coding
+We then coded our app using React before creating our demo, which you can find at the very top of this page.

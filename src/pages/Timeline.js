@@ -17,9 +17,9 @@ class Timeline extends Component {
                     and <b>education</b>. I've founds outlets at MIT where I can also explore my love for <b>creativity </b>
                     and <b>writing </b>. Along the way, I've developed skills in <b>project management </b> and <b>social media</b>.
                     I also just love being very present on the Internet and being a helping hand where I can.</p>
-                </div>
 
                 <p>Greyed out bullets means that these are not new positions.</p>
+                </div>
                 <div id="timeline-cards">
                 <h1>Spring 2021</h1>
                 <Accordion>

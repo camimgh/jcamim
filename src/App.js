@@ -38,10 +38,6 @@ class App extends Component {
             <Route component={Dive} path="/dive" />
           </Switch>
         </Router>
-        <p id="footer">icon made by Emma Suh
-          <br/>
-          last updated 03/03/21
-        </p>
       </div>
     )
   }
