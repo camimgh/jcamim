@@ -20,6 +20,7 @@ class Writing extends Component {
 
                         You can find all my blogs on <a href="https://mitadmissons.org/blogs/author/camim">the MIT Admissions blogs</a>.
                     </p>
+                <h4><a href="complicated">mit: it's complicated</a></h4>
                 </div>
             </div>
         )

@@ -15,6 +15,7 @@ import Experience from './pages/Experience';
 import Timeline from "./pages/Timeline";
 import Writing from "./pages/Writing";
 import Dive from './pages/pages_projects/Dive';
+import Complicated from './pages/blogs/Complicated';
 
 class App extends Component {
   constructor(props) {
@@ -36,6 +37,7 @@ class App extends Component {
             <Route component={Timeline} path="/timeline" />
             <Route component={Writing} path="/writing" />
             <Route component={Dive} path="/dive" />
+            <Route component={Complicated} path="/complicated" />
           </Switch>
         </Router>
       </div>
