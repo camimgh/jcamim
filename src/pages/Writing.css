@@ -10,6 +10,16 @@
     padding-right:2rem;
 }
 
+#writing a {
+    background-color: #f3dada;
+    color: #000411;
+}
+
+#writing-text {
+    max-width: 900px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 #header > h1 {
     font-family: 'Roboto Monospace', monospace;
     font-weight: bold;
