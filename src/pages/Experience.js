@@ -22,13 +22,20 @@ class Experience extends Component {
                 <div id="experience-cards">
                     <Card>
                         <Card.Body>
-                            <Card.Title>Incoming Explore (SWE + PM) Intern</Card.Title>
+                            <Card.Title>Explore (SWE + PM) Intern</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Microsoft
                             <br/>
                             June 2021-August 2021</Card.Subtitle>
                             <Card.Text>
                                 Microsoft Explore is a 12-week summer internship for 1st and 2nd years designed for participants
-                                to explore program management and software development roles.
+                                to explore program management and software development roles. 
+
+                                This summer, I worked on the OneDrive Sync team redesigning the OneDrive desktop settings page.
+                                <ul>
+                                    <li>Worked with engineering, design, business, and PM teams to create OneDrive settings page redesign spec.</li>
+                                    <li>Created wireframes for new settings page in Figma and Balsamiq.</li>
+                                    <li>Coded OneDrive settings page in React Native and Typescript.</li>
+                                </ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>

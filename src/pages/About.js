@@ -35,7 +35,7 @@ class About extends Component {
                     <div className="about-content">
                         <h1 id="about">About Me</h1>
                         <p className="about-text">
-                        My name is Cami and I’m a sophomore at MIT studying computer science and media studies with a minor in Spanish. 
+                        My name is Cami and I’m an incoming at MIT studying computer science and media studies with a minor in business panagement. 
                         My interests really lie all over the place, from music to management and finance to social media and creative writing. 
                         I’m a big believer in the importance of the intersection of humanities and STEM and I hope that my future job allows me to explore this junction. 
                         <br /><br />
