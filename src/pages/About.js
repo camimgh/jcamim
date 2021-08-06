@@ -18,7 +18,7 @@ class About extends Component {
                 <div className="intro-box">
                     <img className="logo" src={logo} alt="logo" />
                     <div className="vl">
-                        <h1 className="header-text">Hi! My name is Cami Mejia and I'm a sophomore at MIT studying computer science and media studies. Some of my interests include gaming, project management, social media, and writing. Feel free to look around.</h1>
+                        <h1 className="header-text">Hi! My name is Cami Mejia and I'm a junior at MIT studying computer science and media studies. Some of my interests include gaming, product management, social media, and writing. Feel free to look around.</h1>
                         <div className="links">
                             <a href="https://github.com/camimgh"><FontAwesomeIcon size="3x" icon={faGithubAlt}/></a>
                             <a href="https://linkedin.com/in/camille-mejia"><FontAwesomeIcon size="3x" icon={faLinkedinIn}/></a>
@@ -35,13 +35,14 @@ class About extends Component {
                     <div className="about-content">
                         <h1 id="about">About Me</h1>
                         <p className="about-text">
-                        My name is Cami and I’m an incoming at MIT studying computer science and media studies with a minor in business panagement. 
-                        My interests really lie all over the place, from music to management and finance to social media and creative writing. 
+                        My name is Cami and I’m an incoming junior at MIT studying computer science and media studies with a minor in business management. 
+                        My interests really lie all over the place, from music to management to social media and creative writing. 
                         I’m a big believer in the importance of the intersection of humanities and STEM and I hope that my future job allows me to explore this junction. 
+                        Talk to me about media trends, product management, or video games.
                         <br /><br />
                         I can normally be found watching kdramas, doom-scrolling through Twitter, watching Twitch streams, or attempting to beat Hades on my Switch.
                         <br/><br/>
-                        Here’s <a href="/timeline">what I've been up to</a> and <a href="https://drive.google.com/file/d/1oUMsB0QA09gpncRYvgiOOgAslYoAW-DO/view?usp=sharing">my resume</a>.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
+                        Here’s <a href="/timeline">what I've been up to</a> and <a href="https://drive.google.com/file/d/1EZtY93feeidXMgTYoAOP74YJ3oSm6Vpc/view?usp=sharing">my resume</a>.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
                         <br></br>
                     </div>
                     <img id="about-photo" src={aboutphoto}/>
