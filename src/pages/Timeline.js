@@ -21,6 +21,22 @@ class Timeline extends Component {
                 <p>Greyed out bullets means that these are not new positions.</p>
                 </div>
                 <div id="timeline-cards">
+                <h1>Summer 2021</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Internship
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            In Summer 2021, I interned for Microsoft as an Explore intern (PM and SWE) on the OneDrive Sync team, where I redeisgned
+                            the OneDrive desktop app settings page in React Native and Typescript.
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
                 <h1>Spring 2021</h1>
                 <Accordion>
                 <Card bg="light">
