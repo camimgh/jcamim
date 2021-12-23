@@ -42,7 +42,7 @@ class About extends Component {
                         <br /><br />
                         I can normally be found watching kdramas, doom-scrolling through Twitter, watching Twitch streams, or attempting to beat Hades on my Switch.
                         <br/><br/>
-                        Here’s <a href="/timeline">what I've been up to</a> and <a href="https://drive.google.com/drive/u/0/folders/1qen-vawKFsLaJgisJOyQ_h9rVSvTLyd0">my resume</a>.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
+                        Here’s <a href="/timeline">what I've been up to</a> and <a href="https://drive.google.com/file/d/1fyFRFYcVmM1WrL5Pe3Wtsylzof-G4ynI/view?usp=sharing">my resume</a>.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
                         <br></br>
                     </div>
                     <img id="about-photo" src={aboutphoto}/>
