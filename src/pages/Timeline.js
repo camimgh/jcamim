@@ -21,6 +21,25 @@ class Timeline extends Component {
                 <p>Greyed out bullets means that these are not new positions.</p>
                 </div>
                 <div id="timeline-cards">
+                <h1>Fall 2021</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Classes
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>CMS.300: Introduction to Videogame Theory</li>
+                                <li>CMS.616: Games and Culture</li>
+                                <li>6.034: Artificial Intelligence</li>
+                                <li>21G.704: Spanish IV</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
                 <h1>Summer 2021</h1>
                 <Accordion>
                 <Card bg="light">
