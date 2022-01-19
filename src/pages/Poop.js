@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './Poop.css';
-import { GoogleMap, LoadScript, Marker, InfoBox, } from '@react-google-maps/api';
+import { GoogleMap, LoadScript, Marker, InfoWindow, } from '@react-google-maps/api';
 import poopIcon from '../images/poopIcon.svg';
 
 const containerStyle = {
@@ -18,7 +18,13 @@ const mitmedical = {
     lng: -71.08662343035172
 }
 
+
+
 class Poop extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {visible: false};
+    }
   render() {
     return (
       <LoadScript
@@ -34,7 +40,14 @@ class Poop extends Component {
           <Marker
             position={mitmedical}
             icon={poopIcon}
-            />
+            onClick={() => {this.setState({visible: !this.state.visible})}}
+            >
+        { this.state.visible ? <InfoWindow
+            position={mitmedical}
+        >
+            <h1>test</h1>
+        </InfoWindow> : <></>} 
+        </Marker>
         </GoogleMap>
       </LoadScript>
     )
