@@ -43,9 +43,9 @@ class NavBar extends Component {
                         }}>timeline</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item> 
-                        <Nav.Link><NavLink to="/writing" activeStyle={{
+                        <Nav.Link><NavLink to="/poop" activeStyle={{
                             fontWeight: 500,
-                        }}>writing</NavLink></Nav.Link>
+                        }}>poop</NavLink></Nav.Link>
                     </Nav.Item>
                 </Nav>
                 </Navbar.Collapse>

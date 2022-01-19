@@ -16,6 +16,7 @@ import Timeline from "./pages/Timeline";
 import Writing from "./pages/Writing";
 import Dive from './pages/pages_projects/Dive';
 import Complicated from './pages/blogs/Complicated';
+import Poop from './pages/Poop';
 
 class App extends Component {
   constructor(props) {
@@ -38,6 +39,7 @@ class App extends Component {
             <Route component={Writing} path="/writing" />
             <Route component={Dive} path="/dive" />
             <Route component={Complicated} path="/complicated" />
+            <Route component={Poop} path="/poop" />
           </Switch>
         </Router>
       </div>
