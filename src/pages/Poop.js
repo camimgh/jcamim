@@ -1,30 +1,43 @@
 import React, { Component } from "react";
 import './Poop.css';
+import { GoogleMap, LoadScript, Marker, InfoBox } from '@react-google-maps/api';
+import poopicon from '../images/poopIcon.png';
 
-class Poop extends Component {
-    render() {
-        return(
-            <div id="writing">
-                <div id="header">
-                    <h1>Writing</h1>
-                </div>
-                <div id="writing-text">
-                    <p>Here you can find a collection of all my blogposts for the MIT Admissions blogs. 
-                        My job as a blogger is to demystify MIT student life for prospective applicants.
-                        I try to be as open and as honest as possible on my blogs, so there are some heavier topics
-                        touched upon in the blogs.
-                        <br/>
-                        I am currently working on rewriting all my blogs in Markdown and transferring them here so they can
-                        be my own! And hosted here! But this is still very much a work in progress due to the sheer amount of
-                        blogs. I hope you can understand!
+const containerStyle = {
+  width: '100vw',
+  height: '100vh'
+};
 
-                        You can find all my blogs on <a href="https://mitadmissons.org/blogs/author/camim">the MIT Admissions blogs</a>.
-                    </p>
-                <h4><a href="complicated">mit: it's complicated</a></h4>
-                </div>
-            </div>
-        )
-    }
+const center = {
+  lat: 42.359331586138204, 
+  lng: -71.09311744384267,
+};
+
+const mitmedical = {
+    lat: 42.361311694039244, 
+    lng: -71.08662343035172
 }
 
+class Poop extends Component {
+  render() {
+    return (
+      <LoadScript
+        googleMapsApiKey="AIzaSyCdH7c_I_CiTAPMc08ZXhoo4VCl4A_N5WM"
+      >
+        <GoogleMap
+          mapContainerStyle={containerStyle}
+          center={center}
+          zoom={18}
+        >
+          { /* Child components, such as markers, info windows, etc. */ }
+          <></>
+          <Marker
+            position={mitmedical}
+            icon={poopicon}
+            />
+        </GoogleMap>
+      </LoadScript>
+    )
+  }
+}
 export default Poop;
