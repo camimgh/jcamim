@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './Poop.css';
-import { GoogleMap, LoadScript, Marker, InfoBox } from '@react-google-maps/api';
-import poopicon from '../images/poopIcon.png';
+import { GoogleMap, LoadScript, Marker, InfoBox, } from '@react-google-maps/api';
+import poopIcon from '../images/poopIcon.svg';
 
 const containerStyle = {
   width: '100vw',
@@ -33,7 +33,7 @@ class Poop extends Component {
           <></>
           <Marker
             position={mitmedical}
-            icon={poopicon}
+            icon={poopIcon}
             />
         </GoogleMap>
       </LoadScript>
