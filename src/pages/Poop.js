@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './Poop.css';
 import { GoogleMap, LoadScript, Marker, InfoWindow, } from '@react-google-maps/api';
 import poopIcon from '../images/poopIcon.svg';
+import poopData from "./poopData";
 
 const containerStyle = {
   width: '100vw',
@@ -19,7 +20,11 @@ const mitmedical = {
 }
 
 
-
+/**
+ * TODO:
+ * - resize SVG
+ * - import all data from spreadsheet
+ */
 class Poop extends Component {
     constructor(props) {
         super(props);
