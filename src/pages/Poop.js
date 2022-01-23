@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import './Poop.css';
-import { GoogleMap, LoadScript, Marker, InfoWindow, } from '@react-google-maps/api';
-import poopIcon from '../images/poopIcon.svg';
-import poopData from "./poopData";
+import { GoogleMap, LoadScript} from '@react-google-maps/api';
+import goodPoopData from "./goodPoopData";
+import PoopMarker from "./PoopMarker";
 
 const containerStyle = {
   width: '100vw',
@@ -23,7 +23,8 @@ const mitmedical = {
 /**
  * TODO:
  * - resize SVG
- * - import all data from spreadsheet
+ * - make new PoopEntry component
+ * - import BAD poop data
  */
 class Poop extends Component {
     constructor(props) {
@@ -42,21 +43,9 @@ class Poop extends Component {
         >
           { /* Child components, such as markers, info windows, etc. */ }
           <></>
-          {this.state.poopData.map((loc, index) => (
-            <Marker 
-              position=
+          {Object.values(goodPoopData).map((poopList, index) => (
+            <PoopMarker poopList={poopList}/>
           ))}
-          {/* <Marker
-            position={mitmedical}
-            icon={poopIcon}
-            onClick={() => {this.setState({visible: !this.state.visible})}}
-            >
-        { this.state.visible ? <InfoWindow
-            position={mitmedical}
-        >
-            <h1>test</h1>
-        </InfoWindow> : <></>} 
-        </Marker> */}
         </GoogleMap>
       </LoadScript>
     )
