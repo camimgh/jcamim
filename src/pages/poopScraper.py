@@ -6,15 +6,20 @@ with open('poopData.csv') as file:
     for row in poopReader:
         poopDict = dict()
         poopDict['name'] = row[0]
-        poopDict['category'] = row[1]
-        poopDict['gender'] = row[2]
-        poopDict['cleanliness'] = row[3]
-        poopDict['ambiance'] = row[4]
-        poopDict['availability'] = row[5]
-        poopDict['privacy'] = row[6]
-        poopDict['amenity'] = row[7]
-        poopDict['mirror'] = row[8]
-        poopDict['comments'] = row[9]
+        poopDict['description'] = row[1]
+        poopDict['lat'] = row[2]
+        poopDict['long'] = row[3]
+        poopDict['gender'] = row[4]
+        poopDict['cleanliness'] = row[5]
+        poopDict['ambiance'] = row[6]
+        poopDict['availability'] = row[7]
+        poopDict['restroomSpaciousness'] = row[8]
+        poopDict['stallSpaciousness'] = row[9]
+        poopDict['accessibility'] = row[10]
+        poopDict['privacy'] = row[11]
+        poopDict['amenity'] = row[12]
+        poopDict['mirror'] = row[13]
+        poopDict['comment'] = row[14]
         print(json.dumps(poopDict, sort_keys=True, indent=4) + ',')
 
 

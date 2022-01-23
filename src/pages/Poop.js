@@ -42,7 +42,11 @@ class Poop extends Component {
         >
           { /* Child components, such as markers, info windows, etc. */ }
           <></>
-          <Marker
+          {this.state.poopData.map((loc, index) => (
+            <Marker 
+              position=
+          ))}
+          {/* <Marker
             position={mitmedical}
             icon={poopIcon}
             onClick={() => {this.setState({visible: !this.state.visible})}}
@@ -52,7 +56,7 @@ class Poop extends Component {
         >
             <h1>test</h1>
         </InfoWindow> : <></>} 
-        </Marker>
+        </Marker> */}
         </GoogleMap>
       </LoadScript>
     )
