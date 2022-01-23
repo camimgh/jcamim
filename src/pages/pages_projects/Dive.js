@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import ReactMarkdown from 'react-markdown';
-import {render} from 'react-dom';
-import ReactDOM from 'react-dom';
 import Divemd from "./Dive.md";
-import './Dive.css'
+import './projectspages.css'
 import gfm from 'remark-gfm';
 import Card from 'react-bootstrap/Card'
 /*
@@ -32,6 +30,7 @@ class Dive extends Component {
         return (
             <div id="dive">
                 <Card body>
+                <p><a href="/projects">Back to Projects</a></p>
                 <h1>Dive</h1>
                 <p>
                         Dive is a mobile app built with <b>Typescript</b> and <b>React</b> that connects people to others inside or outside of their culture to encourage diversity, personal connection, and friendship.
@@ -41,6 +40,7 @@ class Dive extends Component {
                     src="https://www.youtube.com/embed/gfzJSjN6rV8" frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
                     <ReactMarkdown plugins={[gfm]} source={markdown} />
+                <p><a href="/projects">Back to Projects</a></p>
                 </Card>
             </div>
         )
