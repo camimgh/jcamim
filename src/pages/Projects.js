@@ -51,14 +51,15 @@ class Projects extends Component {
                     </Card>
 
                     <Card>
-                    <a href="/dive">
-                        <Card.Header>Divy</Card.Header>
+                    <a href="/CMS300final">
+                        <Card.Header>Ecology and the Organic in Ori and the Will of the Wisps</Card.Header>
                     </a>
                         <Card.Body>
-                            <Card.Subtitle className="mb-2 text-muted">Internship</Card.Subtitle>
-                            <Card.Text>Dive is a web app built using <b>React</b>, <b>Figma</b>, and <b>Typescript</b>, created for my Microsoft internship.</Card.Text>
+                            <Card.Subtitle className="mb-2 text-muted">Class</Card.Subtitle>
+                            <Card.Text>This YouTube video is a deep analysis of the AAA videogame 
+                                Ori and the Will of the Wisps, created using <b>Adobe Premiere Pro</b> and <b>Audacity</b>.
+                            </Card.Text>
                         </Card.Body>
-                        <Card.Img variant="top" src={divvy}/>
                     </Card>
                 </CardDeck>
             </div>
