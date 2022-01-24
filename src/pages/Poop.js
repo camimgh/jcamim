@@ -34,7 +34,7 @@ class Poop extends Component {
   render() {
     return (
       <LoadScript
-        googleMapsApiKey="AIzaSyCdH7c_I_CiTAPMc08ZXhoo4VCl4A_N5WM"
+        googleMapsApiKey=""
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
