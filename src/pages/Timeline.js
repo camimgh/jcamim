@@ -21,7 +21,7 @@ class Timeline extends Component {
                 <p>Greyed out bullets means that these are not new positions.</p>
                 </div>
                 <div id="timeline-cards">
-                <h1>Fall 2021</h1>
+                <h1>Spring 2022</h1>
                 <Accordion>
                 <Card bg="light">
                     <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Classes
@@ -30,10 +30,97 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
+                                <li>CMS.614: Network Cultures</li>
+                                <li>21W.762: Poetry Workshop</li>
+                                <li>6.S063: Design for the Web</li>
+                                <li>21W.755: Reading and Writing Short Stories</li>
+                                <li>6.UAT: Oral Communication</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="2">Extracurriculars</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Delta Phi Epsilon Vice President of Academic Affairs: planning mixers, Spring Formal,
+                                    pset nights, and intro to finance series
+                                </li>
+                                <li>Student Events Board: planning SpringFest and Comedy Night</li>
+                                <li>Associate Advising</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
+                <h1>Winter 2022</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Undergraduate Researcher for MIT Game Lab</li>
+                                <li className="grayout">Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                                <li className="grayout">Blogger for MIT Admissions</li>
+                                <li className="grayout">Panelist for MIT Admissions</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
+
+                <h1>Fall 2021</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Lab Assistant for 6.0001 Intro to Python</li>
+                                <li className="grayout">Blogger for MIT Admissions</li>
+                                <li className="grayout">Program Assistant for MIT Career Advising and Professional Development Office's Infinite Careers</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="1">Classes
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
                                 <li>CMS.300: Introduction to Videogame Theory</li>
                                 <li>CMS.616: Games and Culture</li>
                                 <li>6.034: Artificial Intelligence</li>
                                 <li>21G.704: Spanish IV</li>
+                            </ul>
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center" eventKey="2">Extracurriculars</Accordion.Toggle>
+                    <Accordion.Collapse eventKey="2">
+                    <Card.Body>
+                        <Card.Text>
+                            <ul>
+                                <li>Member of Delta Phi Epsilon sorority</li>
+                                <li>Student Events Board</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
@@ -123,7 +210,7 @@ class Timeline extends Component {
                 </Accordion>
 
 
-                <h1>IAP 2021</h1>
+                <h1>Winter 2021</h1>
                 <Accordion>
                 <Card bg="light">
                     <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
