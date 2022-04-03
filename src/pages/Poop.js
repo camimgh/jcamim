@@ -3,6 +3,8 @@ import './Poop.css';
 import { GoogleMap, LoadScript} from '@react-google-maps/api';
 import goodPoopData from "./goodPoopData";
 import PoopMarker from "./PoopMarker";
+import config from '../config'
+import badPoopData from "./badPoopData";
 
 const containerStyle = {
   width: '100vw',
@@ -20,6 +22,7 @@ const mitmedical = {
 }
 
 
+
 /**
  * TODO:
  * - resize SVG
@@ -33,8 +36,19 @@ class Poop extends Component {
     }
   render() {
     return (
+      <div id="poop">
+        <div id="poop-text">
+        <h5>What am I looking at?</h5>
+        <p>Welcome to my Poop Map! 
+          Back on November 29, 2021 I sent
+          out an email to all MIT students asking them their favorite
+          and least favorite places to shit on campus.
+          Here are those results. All ratings are on a scale of 1 to 5. Happy poop emojis indicate
+          a favorite poop location. Sad poop emojis represent a person's least favorite poop locale.
+        </p>
+        </div>
       <LoadScript
-        googleMapsApiKey=""
+        googleMapsApiKey={config.U_API_KEY}
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
@@ -44,10 +58,15 @@ class Poop extends Component {
           { /* Child components, such as markers, info windows, etc. */ }
           <></>
           {Object.values(goodPoopData).map((poopList, index) => (
-            <PoopMarker poopList={poopList}/>
+            <PoopMarker poopList={poopList} isBad={false}/>
+          ))}
+          {Object.values(badPoopData).map((poopList, index) => (
+            <PoopMarker poopList={poopList} isBad={true}/>
           ))}
         </GoogleMap>
       </LoadScript>
+
+      </div>
     )
   }
 }

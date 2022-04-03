@@ -1,7 +1,7 @@
 import csv
 import json
 
-with open('poopData.csv') as file:
+with open('poopDataWorst.csv') as file:
     poopReader = csv.reader(file)
     print('export default')
     overallPoopDict = {}
