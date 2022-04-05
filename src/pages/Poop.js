@@ -48,7 +48,7 @@ class Poop extends Component {
         </p>
         </div>
       <LoadScript
-        googleMapsApiKey={config.U_API_KEY}
+        googleMapsApiKey={U_API_KEY}
       >
         <GoogleMap
           mapContainerStyle={containerStyle}
