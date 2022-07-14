@@ -3,7 +3,6 @@ import './Poop.css';
 import { GoogleMap, LoadScript} from '@react-google-maps/api';
 import goodPoopData from "./goodPoopData";
 import PoopMarker from "./PoopMarker";
-import config from '../config'
 import badPoopData from "./badPoopData";
 
 const containerStyle = {
