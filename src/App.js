@@ -40,7 +40,6 @@ class App extends Component {
             <Route component={Writing} path="/writing" />
             <Route component={Dive} path="/dive" />
             <Route component={Complicated} path="/complicated" />
-            <Route component={Poop} path="/poop" />
             <Route component={CMS300Final} path="/cms300final" />
           </Switch>
         </Router>
