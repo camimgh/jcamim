@@ -16,7 +16,6 @@ import Timeline from "./pages/Timeline";
 import Writing from "./pages/Writing";
 import Dive from './pages/pages_projects/Dive';
 import Complicated from './pages/blogs/Complicated';
-import Poop from './pages/Poop';
 import CMS300Final from './pages/pages_projects/CMS300final';
 
 class App extends Component {
