@@ -16,6 +16,7 @@
 src/config.js
 src/pages/PoopEntry.jsx
 src/pages/PoopMarker.jsx
+src/Poop.js
 
 # misc
 .DS_Store
