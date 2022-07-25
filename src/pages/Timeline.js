@@ -21,6 +21,21 @@ class Timeline extends Component {
                 <p>Greyed out bullets means that these are not new positions.</p>
                 </div>
                 <div id="timeline-cards">
+                <h1>Summer 2022</h1>
+                <Accordion>
+                <Card bg="light">
+                    <Accordion.Toggle as={Card.Header} className="text-center"  eventKey="0">Work
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>
+                        <Card.Text>
+                            In Summer 2022, I worked at Salesforce as 1 of 12 APMs. I worked on the Tableau Exchange team redesigning the 
+                            submission listing process.
+                        </Card.Text>
+                    </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                </Accordion>
                 <h1>Spring 2022</h1>
                 <Accordion>
                 <Card bg="light">
@@ -30,11 +45,9 @@ class Timeline extends Component {
                     <Card.Body>
                         <Card.Text>
                             <ul>
-                                <li>CMS.614: Network Cultures</li>
                                 <li>21W.762: Poetry Workshop</li>
                                 <li>6.S063: Design for the Web</li>
                                 <li>21W.755: Reading and Writing Short Stories</li>
-                                <li>6.UAT: Oral Communication</li>
                             </ul>
                         </Card.Text>
                     </Card.Body>
@@ -135,7 +148,7 @@ class Timeline extends Component {
                     <Accordion.Collapse eventKey="0">
                     <Card.Body>
                         <Card.Text>
-                            In Summer 2021, I interned for Microsoft as an Explore intern (PM and SWE) on the OneDrive Sync team, where I redeisgned
+                            In Summer 2021, I interned for Microsoft as an Explore intern (PM and SWE) on the OneDrive Sync team, where I redesigned
                             the OneDrive desktop app settings page in React Native and Typescript.
                         </Card.Text>
                     </Card.Body>
