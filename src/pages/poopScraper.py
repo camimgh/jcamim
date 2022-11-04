@@ -3,7 +3,6 @@ import json
 
 with open('poopDataWorst.csv') as file:
     poopReader = csv.reader(file)
-    print('export default')
     overallPoopDict = {}
     for row in poopReader:
         poopDict = dict()
