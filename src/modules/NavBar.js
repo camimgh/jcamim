@@ -42,9 +42,10 @@ class NavBar extends Component {
                             fontWeight: 500,
                         }}>timeline</NavLink></Nav.Link>
                     </Nav.Item>
-                    <Nav.Item> 
+                    <Nav.Item className="vertical-center"> 
                         <a target="_blank" href="https://63654475f349a90008f7509c--snazzy-puffpuff-fdf007.netlify.app/">poop</a>
                     </Nav.Item>
+
                 </Nav>
                 </Navbar.Collapse>
             </Navbar>

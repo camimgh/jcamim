@@ -24,6 +24,10 @@
     color: black;
 }
 
+.vertical-center {
+    padding-top: 7px;
+}
+
 .sticky {
     position: fixed;
     top: 0;
