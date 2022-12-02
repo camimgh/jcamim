@@ -45,6 +45,9 @@ class NavBar extends Component {
                     <Nav.Item className="vertical-center"> 
                         <a target="_blank" href="https://snazzy-puffpuff-fdf007.netlify.app/">poop</a>
                     </Nav.Item>
+                    <Nav.Item className="vertical-center"> 
+                        <a target="_blank" href="https://camim.substack.com/">blog</a>
+                    </Nav.Item>
 
                 </Nav>
                 </Navbar.Collapse>
