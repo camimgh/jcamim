@@ -61,6 +61,16 @@ class Projects extends Component {
                             </Card.Text>
                         </Card.Body>
                     </Card>
+                    <Card>
+                    <a href="/CMS335">
+                        <Card.Header>CMS.335 Short Attention Span Documentaries</Card.Header>
+                    </a>
+                        <Card.Body>
+                            <Card.Subtitle className="mb-2 text-muted">Class</Card.Subtitle>
+                            <Card.Text>For my documentary class, I created three short video projects using <b>Adobe Premiere Pro</b> and <b>Audacity</b>.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
                 </CardDeck>
             </div>
             </div>

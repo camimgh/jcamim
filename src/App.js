@@ -17,6 +17,7 @@ import Writing from "./pages/Writing";
 import Dive from './pages/pages_projects/Dive';
 import Complicated from './pages/blogs/Complicated';
 import CMS300Final from './pages/pages_projects/CMS300final';
+import CMS335 from './pages/pages_projects/CMS335'
 
 class App extends Component {
   constructor(props) {
@@ -40,6 +41,7 @@ class App extends Component {
             <Route component={Dive} path="/dive" />
             <Route component={Complicated} path="/complicated" />
             <Route component={CMS300Final} path="/cms300final" />
+            <Route component={CMS335} path="/cms335" />
           </Switch>
         </Router>
       </div>

@@ -25,11 +25,16 @@ class CMS335 extends Component {
                 <p>
                     During my junior spring, I took a documentary making class and created three short video projects to demonstrate my work.
                 </p>
-                <p align="center"><iframe width="300" height="200" 
-                    src="https://www.youtube.com/watch?v=-uv2OqttCpU&feature=youtu.be" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-                    {/* <ReactMarkdown plugins={[gfm]} source={markdown} /> */}
-                <p><a href="/projects">Back to Projects</a></p>
+                <p>
+                    The first video was a focus on a person or place, revealing something interesting or compelling about them. I did the video project on 
+                    my friend Jovita, who is a world-class Tetris and Minesweeper player. You can view the video <a href="https://www.youtube.com/watch?v=LZjT7LltUbU">here</a>.
+                </p>
+                <p>The second project was to highlight a specific problem or conflict. I made my project on the dilemma of MIT being a closed campus and how many student groups thrived and relied on 
+                    MIT's open campus nature. You can view the video <a href="https://www.youtube.com/watch?v=yObunHjQ9us">here</a>.
+                </p>
+                <p>The third project was meant to be a combination of these two things. I decided to make the video a personal reflection on my life as a fangirl and the parasocial relationship I formed with boy band 
+                    One Direction. You can view the video <a href="https://www.youtube.com/watch?v=D2toAIp8mls">here</a> and read my blogpost on making this video <a href="https://mitadmissions.org/blogs/entry/i-dont-need-you-anymore/">here</a>.
+                </p>
                 </Card>
             </div>
         )
