@@ -35,12 +35,12 @@ class About extends Component {
                     <div className="about-content">
                         <h1 id="about">About Me</h1>
                         <p className="about-text">
-                        My name is Cami and I’m an incoming senior at MIT studying computer science and media studies with a minor in Spanish. 
+                        My name is Cami and I’m an MIT alumna with my Bachelor's in computer science and media studies. I currently work at Microsoft as a product manager. 
                         My interests really lie all over the place, from music to management to social media and creative writing. 
-                        I’m a big believer in the importance of the intersection of humanities and STEM and I hope that my future job allows me to explore this junction. 
+                        I’m a big believer in the importance of the intersection of humanities and STEM. 
                         Talk to me about media trends, product management, or video games.
                         <br /><br />
-                        I can normally be found watching kdramas, doom-scrolling through Twitter, watching Twitch streams, or attempting to beat Hades on my Switch.
+                        I can normally be found crocheting, doom-scrolling through X, watching Twitch streams, or attempting to beat Hades on my Switch.
                         <br/><br/>
                         Here’s <a href="/timeline">what I've been up to</a> and <a href="https://drive.google.com/file/d/1B1ymgSAMsAfHjiY5HuveplD9edn3QcoB/view?usp=sharing">my resume</a>.</p><a className="about-text" href="mailto:camim@mit.edu">You can contact me here.</a>
                         <br></br>
