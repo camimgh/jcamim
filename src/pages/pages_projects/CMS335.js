@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ReactMarkdown from 'react-markdown';
-import CMS300Finalmd from "./CMS300final.md";
+import CMS335md from "./CMS335.md";
 import './projectspages.css'
 import gfm from 'remark-gfm';
 import Card from 'react-bootstrap/Card'
@@ -40,4 +40,4 @@ class CMS335 extends Component {
         )
     }
 }
-export default CMS300Final;
+export default CMS335;
