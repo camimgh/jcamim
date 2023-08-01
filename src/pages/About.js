@@ -18,7 +18,7 @@ class About extends Component {
                 <div className="intro-box">
                     <img className="logo" src={logo} alt="logo" />
                     <div className="vl">
-                        <h1 className="header-text">Hi! My name is Cami Mejia and I'm an incoming senior at MIT studying computer science and media studies. Some of my interests include gaming, product management, social media, and writing. Feel free to look around.</h1>
+                        <h1 className="header-text">Hi! My name is Cami Mejia and I'm an MIT alumnus (C/O 2023) with my Bachelor's in computer science and media studies. Now, I work as a product manager for Microsoft on the OneDrive Photos + Mobile team. Some of my interests include gaming, product management, social media, and writing. Feel free to look around.</h1>
                         <div className="links">
                             <a href="https://github.com/camimgh"><FontAwesomeIcon size="3x" icon={faGithubAlt}/></a>
                             <a href="https://linkedin.com/in/camille-mejia"><FontAwesomeIcon size="3x" icon={faLinkedinIn}/></a>
